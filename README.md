@@ -3,9 +3,6 @@
 
 Welcome to the Practice Linux File Permissions repository! This is a show of my own practice of using read, write, and execute permissions in linux
 
-## What are File Permissions?
-
-In Linux and Unix-like operating systems, file permissions determine who can read, write, and execute files and directories. Understanding and managing file permissions is crucial for maintaining security and controlling access to sensitive data.
 
 ## Basic File Permissions
 - **Owner**: The user who owns the file.
