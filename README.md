@@ -26,13 +26,13 @@ Each set of permissions consists of three characters:
 ![image](https://github.com/YoriTano/Linux-file-permissions/assets/106491544/07cde951-6947-4a7f-9287-00b7c92ba122)
 
 
-<b>The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. I know.project_x.txt is a hidden file because it starts with a period (.). In this example, I removed write permissions from the user and group, and added read permissions to the group. I removed write permissions from the user with u-w. Then, I removed write permissions from the group with g-w, and added read permissions to the group with g+r.</b>
+<b>I know.project_x.txt is a hidden file because it starts with a period (.). In this example, I removed write permissions from the user and group, and added read permissions to the group. I removed write permissions from the user with u-w. Then, I removed write permissions from the group with g-w, and added read permissions to the group with g+r.</b>
 
 
 ![image](https://github.com/YoriTano/Linux-file-permissions/assets/106491544/b18a23fd-6c52-42f5-9c1f-5aa288f71f1d)
 
 
-<b>The first two lines of the screenshot display the commands I entered.I previously determined that the group had execute permissions, so I used the chmod command to remove them. The researcher2 user already had execute permissions, so they did not need to be added.</b>
+<b>I determined that the group had execute permissions, so I used the chmod command to remove them. The researcher2 user already had execute permissions, so they did not need to be added.</b>
 
 <b>I changed multiple permissions to match the level of authorization my organization wanted for files and directories in the projects directory. The first step in this was using ls -la to check the permissions for the directory.I then used the chmod command multiple times to change the permissions on files and directories.</b>
 
